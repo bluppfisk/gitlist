@@ -1,19 +1,29 @@
 {
     "name": "klaussilveira/gitlist",
     "description": "An elegant git repository viewer",
+    "repositories": [
+	    {
+		    "type": "vcs",
+		    "url": "https://github.com/bluppfisk/gitter"
+	    },
+	    {
+		    "type": "vcs",
+		    "url": "https://github.com/bluppfisk/process"
+	    }
+    ],
     "require": {
         "php": ">=5.3",
         "doctrine/instantiator": "1.0.*",
-        "klaussilveira/gitter": "^0.4.0",
         "phpdocumentor/reflection-docblock": "2.0.*",
         "sebastian/comparator": "1.2.*",
         "sebastian/recursion-context": "1.0.*",
         "silex/silex": "1.3.*",
         "symfony/filesystem": "2.8.*",
         "symfony/http-kernel": "2.8.*",
-        "symfony/process": "2.8.*",
         "symfony/twig-bridge": "2.8.*",
-        "twig/twig": "1.35.*"
+        "twig/twig": "1.35.*",
+        "klaussilveira/gitter": "dev-master",
+	"symfony/process": "v4.2.x-dev"
     },
     "require-dev": {
         "symfony/browser-kit": "~2.8",
